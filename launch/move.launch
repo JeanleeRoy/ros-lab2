@@ -1,0 +1,4 @@
+<launch>  
+    <node name="talker_cmd_vel" pkg="lab2" type="talker_cmd_vel" output="screen" /> 
+    <node name="listener_odom" pkg="lab2" type="listener_odom" output="screen" />
+</launch>
